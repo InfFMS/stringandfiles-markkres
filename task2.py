@@ -4,9 +4,9 @@
 # Запишите обновленный текст в новый файл с другим именем.
 # Выведите на экран сообщение о количестве произведённых замен.
 f=open("task2.txt",encoding="utf-8")
-f=f.read()
-f=f.replace("Python","Питон")
-f=f.replace("python","питон")
+string=f.read()
+string=string.replace("Python","Питон")
+string=string.replace("python","питон")
 file = open("For_task2.txt","w+")
-file.write(f)
+file.write(string)
 file.close()
